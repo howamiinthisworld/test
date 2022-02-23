@@ -1,0 +1,6 @@
+- name: test
+  hosts: all
+  tasks:
+    - name: test01
+      debug:
+        msg: "This is a book"
